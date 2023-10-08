@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.orange {
+  background-color: #ff7e00;
+}
+
+.yellow {
+  background-color: #ffcc01;
+}
+
+.pink {
+  background-color: #e94b86;
+}
+
+.change-color{
+  background-color: #ff7e00;
+}
